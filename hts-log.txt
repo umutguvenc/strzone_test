@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 07 Jan 2023 13:25:15 at https://showcase.refokus.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://showcase.refokus.com/ -O1 "D:\web\showcase\showcase" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:25:16	Error: 	"Bad Gateway" (502) after 2 retries at link https://showcase.refokus.com/robots.txt (from primary/primary)
+13:25:27	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://showcase.refokus.com/)
+13:25:27	Warning: 	Retry after error 502 (Bad Gateway) at link https://showcase.refokus.com/oribili.js (from https://snap.licdn.com/li.lms-analytics/insight.min.js)
+13:25:27	Warning: 	Retry after error 502 () at link https://showcase.refokus.com/oribili.js (from https://snap.licdn.com/li.lms-analytics/insight.min.js)
+13:25:27	Error: 	"" (502) after 2 retries at link https://showcase.refokus.com/oribili.js (from https://snap.licdn.com/li.lms-analytics/insight.min.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 seconds : 29 links scanned, 24 files written (2027257 bytes overall) [1168582 bytes received at 97381 bytes/sec], 1122326 bytes transferred using HTTP compression in 7 files, ratio 21%, 2.2 requests per connection
+(3 errors, 2 warnings, 0 messages)
