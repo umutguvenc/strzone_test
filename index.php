@@ -1,1 +1,1 @@
-<? header('location:/showcase.refokus.com/index.html'); ?>
+<? header('location: ./showcase.refokus.com/index.html'); ?>
