@@ -3613,8 +3613,8 @@ figcaption {
 }
 
 .c-centre_blur {
-  width: 110vw;
-  height: 110vw;
+  width: 30vw;
+  height: 30vw;
   border-radius: 100%;
   background-color: #121a61;
   -webkit-filter: blur(150px);
@@ -4019,7 +4019,7 @@ figcaption {
 
 .c-focused-blur {
   -webkit-filter: blur(2px);
-  filter: blur(2px);
+  filter: blur(8px);
   -webkit-transition: .2s;
   transition: .2s
 }
@@ -4774,7 +4774,8 @@ figcaption {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 25%
+  height: 25%;
+  
 }
 
 .c-project_scroll_anchor.cc-is_project_1 {
@@ -6785,7 +6786,7 @@ figcaption {
 
   .c-project_component_item_title {
     -webkit-box-ordinal-group: 4;
-    -webkit-order: 3;
+    -webkit-order: 3;scroll
     -ms-flex-order: 3;
     order: 3;
     font-size: 11px
