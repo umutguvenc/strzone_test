@@ -3293,7 +3293,7 @@ figcaption {
 
 .c-text-additional.cc-is_step {
   margin-top: .1em;
-  font-size: 6.4em
+  font-size: 4.4em
 }
 
 .cc-medium {
@@ -5635,7 +5635,14 @@ figcaption {
   bottom: 0;
   width: 28.4em
 }
-
+.c-staircase_step.cc-step_5 {
+  position: absolute;
+  left: auto;
+  top: 23em;
+  right: 12.4em;
+  bottom: 0;
+  width: 31.4em
+}
 .image-3 {
   position: absolute;
   top: 11.8em;
@@ -7066,6 +7073,11 @@ figcaption {
     right: 14.8em;
     width: 47.86em
   }
+  .c-staircase_step.cc-step_5 {
+    top: 30.3em;
+    right: 14.8em;
+    width: 47.86em
+  }
 
   .c-hyperfocus_col_2_rockets,
   .c-hyperfocus_smaller_rocket_wrapper {
@@ -7557,7 +7569,7 @@ figcaption {
 
   .c-text-additional {
     margin-top: 4px;
-    font-size: 50px
+    font-size: 35px
   }
 
   .c-name_menu {
@@ -8204,10 +8216,10 @@ figcaption {
   }
 
   .c-text-additional {
-    width: 110px;
+    width: 80px;
     margin-top: 6px;
     margin-bottom: 24px;
-    font-size: 40px
+    font-size: 35px
   }
 
   .c-nav_brand {
