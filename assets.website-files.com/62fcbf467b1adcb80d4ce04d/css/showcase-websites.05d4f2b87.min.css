@@ -4219,11 +4219,33 @@ figcaption {
 
 .c-hyperfocus_skyrocket {
   position: absolute;
-  left: 57em;
-  bottom: 11.5em;
+  left: 37em;
+  bottom: 2.5em;
+  width: 29.3em;
+  padding-left: 5.2em
+}
+.c-hyperfocus_skyrocket2 {
+  position: absolute;
+  left: 50.2em;
+  bottom: 6.9em;
+  width: 29.3em;
+  padding-left: 4em
+}
+.c-hyperfocus_skyrocket3 {
+  position: absolute;
+  left: 56em;
+  bottom: 12.9em;
+  width: 29.3em;
+  padding-left: 4em
+}
+.c-hyperfocus_skyrocket4 {
+  position: absolute;
+  left: 61.3em;
+  bottom: 18.9em;
   width: 29.3em;
   padding-left: 3em
 }
+
 
 .c-hyperfocus_curved_line_overlay {
   position: relative;
@@ -4315,6 +4337,8 @@ figcaption {
   transform: translate(-26.4em, 1.8em)
 }
 
+
+
 .c-hyperfocus_circles_wrapper {
   position: relative;
   left: 0;
@@ -4346,6 +4370,30 @@ figcaption {
   bottom: auto;
   width: 2.2em;
   height: 2.2em;
+  border-radius: 20px;
+  background-color: #fff
+}
+
+.c-skyrocket_dot2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 20px;
+  background-color: #fff
+}
+
+.c-skyrocket_dot4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  width: 1em;
+  height: 1em;
   border-radius: 20px;
   background-color: #fff
 }
@@ -6547,6 +6595,21 @@ figcaption {
     display: none
   }
 
+  .c-skyrocket_dot2 {
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    display: none
+  }
+  .c-skyrocket_dot4 {
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    display: none
+  }
+
   .c-hyperfocus_col_2_absolute {
     position: static;
     display: block
@@ -7697,6 +7760,9 @@ figcaption {
   .c-hyperfocus_skyrocket {
     position: static
   }
+  .c-hyperfocus_skyrocket2 {
+    position: static
+  }
 
   .c-hyperfocus_progress_line {
     display: none
@@ -7709,6 +7775,13 @@ figcaption {
 
   .c-clear_goal_dot,
   .c-skyrocket_dot {
+    display: none
+  }
+  .c-skyrocket_dot4 {
+    display: none
+  }
+
+  .c-skyrocket_dot2 {
     display: none
   }
 
@@ -8307,7 +8380,10 @@ figcaption {
     width: auto;
     margin-left: 0
   }
-
+  .c-hyperfocus_skyrocket2 {
+    width: auto;
+    margin-left: 0
+  }
   .c-hyperfocus_objective.cc-is_1,
   .c-hyperfocus_objective.cc-is_2,
   .c-hyperfocus_objective.cc-is_3 {
